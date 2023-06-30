@@ -12,7 +12,7 @@ export default function Home() {
     {pop ? <Pop hide={setPop}/> : <>
     <h1 className={styles.heading} > Our Clients</h1>
       <div className={styles.cardContainer}>
-        <p className={styles.kohler} onClick={()=>{setPop(true)}}>KOHLER</p>
+        <p className={styles.kohler} onClick={()=>{setPop(true)}}>POP UP</p>
       </div>
     </> }
       
